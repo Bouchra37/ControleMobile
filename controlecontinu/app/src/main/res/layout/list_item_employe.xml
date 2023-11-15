@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+
+
+
+
+
+        <TextView
+            android:id="@+id/LabelNom"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text="Nom:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextViewNom"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/LabelPrenom"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text="Prénom:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PrenomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextViewPrenom"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/LabelDate"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextViewDate"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/LabelService"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text="Service:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ServiceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextViewService"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
